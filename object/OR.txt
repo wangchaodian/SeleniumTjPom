@@ -1,0 +1,43 @@
+# home page（打开首页）
+loginLink=.login-toggle>:first-child
+
+# login page（登录界面）
+loginUsernameInputbox=//*[@id="app"]/div/div/div/div/div[2]/label[1]/input
+loginPasswordInputbox=//*[@id="app"]/div/div/div/div/div[2]/label[2]/input
+loginSubmitBtn=.submit-login
+
+#main interface（主界面）
+getHeadersText=.marquee-line-text
+getModuleTotalNum=.section-body>div[class='module-wrap']
+appHeader=//*[@id='app']/div/div[2]/div/div[3]/div[1]
+localBox=.area-selector>.selector-box
+localBox1=.area-list-container>ul>li
+localBox2=.area-list-container>:nth-child(2)>li
+localBox3=.area-list-container>:nth-child(3)>li
+
+#shopList page(县网商列表)
+shopQueryInputbox=//*[@id='app']/div/div[2]/div/div[3]/div[2]/div/div/div[11]/div/div/div/div/div/div/ul/li[17]/div[1]/div/div[1]/input
+shopQueryBtn=//*[@id='app']/div/div[2]/div/div[3]/div[2]/div/div/div[11]/div/div/div/div/div/div/ul/li[17]/div[1]/div/div[1]/div
+nextPage=.pagerbtn.nextbtn
+previousPage=.pagerbtn.prevbtn
+empty=.search-clear
+totalPage=.list-controller>:nth-child(2)
+shopJumpInputbox=.page-box>input[type='text']
+jumpTo=.jump-to
+
+#return（返回）
+returnBtn=.fill>.back-button.button 
+
+#OverallDeal（整体交易模块）
+OverallDealCanvas=//*[@id='app']/div/div[2]/div/div[3]/div[2]/div/div/div[11]/div/div/div/div/div/div/div[2]/div/div/div/canvas
+ServiceTab=.fixed-bottom>:nth-child(2)
+PhysicalTab=.fixed-bottom>:first-child
+
+#IndustryStructure（行业结构模块）
+IndustryCanvas=//*[@id='app']/div/div[2]/div/div[3]/div[2]/div/div/div[11]/div/div/div/div/div/div/div[1]/div/div[1]/canvas
+
+#IndustrySegments（行业细分模块）
+SegmentsCanvas=//*[@id='app']/div/div[2]/div/div[3]/div[2]/div/div/div[11]/div/div/div/div/div/div/div[2]/div/div/div[1]/canvas
+
+#网络价格走势
+Btn30=.btn-group>.btn 
